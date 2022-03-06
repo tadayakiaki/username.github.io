@@ -1,0 +1,186 @@
+/* убирает нижний скроллбар */
+.html {
+  overflow-x: hidden;
+}
+/* убирает нижний скроллбар */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fon {
+  position: relative;
+  width: 1430px;
+  display: block;
+}
+
+.osnova_text {
+  color: #8eeb00;
+  font-family: Trajan Pro Bold;
+  font-size: 70px;
+  position: absolute;
+  top: 320px;
+  left: 70px;
+}
+
+.kom {
+  position: absolute;
+  color: #b7b4bf;
+  font-family: Avanti;
+  font-size: 30px;
+  top: 400px;
+  left: 70px;
+}
+
+/* НАВИГАЦИОННАЯ ПАНЕЛЬ */
+a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  font-size: 22px;
+  display: block;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  display: inline;
+  font-family: Bahnschrift;
+  top: -750px;
+  left: 70px;
+  transition: 0.5s ease;
+  background: #141414;
+}
+
+nav a:hover {
+  color: #8eeb00;
+}
+/* НАВИГАЦИОННАЯ ПАНЕЛЬ */
+
+
+/* ТРЕУГОЛЬНИК */
+nav a svg polygon, nav a:hover svg {
+	transition: 0.7s ease;
+}
+
+nav a:hover svg polygon {
+  stroke: #8eeb00;
+}
+
+nav a:focus svg {
+  transform: rotate(180deg);
+}
+/* ТРЕУГОЛЬНИК */
+
+.dota2_icon {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  display: inline;
+  margin-bottom: -28px;
+}
+
+.hr1 {
+	position: absolute;
+	width: 820px;
+	top: 500px;
+	height: 2px;
+	background-color: #8eeb00;
+	border: none;
+}
+
+/* ВЫПАДАЮЩИЙ ТЕКСТ */
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+	position: relative;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  top: -735px;
+}
+
+.dropdown-content a:hover {
+	background-color: gray
+}
+
+.show {
+	display:block;
+}
+/* ВЫПАДАЮЩИЙ ТЕКСТ */
+
+
+
+.O_nac {
+	text-align: center;
+	color: #8eeb00;
+	margin-left: -50px;
+	font-family: Century Schoolbook;
+	font-size: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand:hover {
+  color: #8eeb00;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #8eeb00;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8eeb00;
+}
