@@ -1,0 +1,117 @@
+<!-------------------------------------------------------- САЙТ ------------------------------------------------------>
+<!DOCTYPE html>
+
+
+
+<html lang="ru" class="html">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <body style="background-color:#1A1A1F;"> </body>
+    <title>T E S T</title>
+
+</head>
+
+
+
+<!-- привязка -->
+<body>
+
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+</body>
+<!-- привязка -->
+
+
+
+
+
+<!-- ОСНОВНАЯ ПАНЕЛЬ -->
+<body>
+
+<img src="images/fon.jpg" class="fon">
+
+<h1 class="osnova_text">DOTA 2</h1>
+
+<h1 class="kom">Все, что вы хотели знать о предметах в доте:<br> детальное описание всех характеристик.</h1>
+
+<nav>
+ <a href = "#"> <img src="images/dota2_icon.png" class="dota2_icon"></a>
+
+
+<div class="dropdown">
+  <a href = "#" onclick="myFunction()" class="dropbtn">Герои
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15 15" style="width: 15px; height: 15px;">
+        <polygon fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" points="13.64,12.82 7.5,12.82 1.36,12.81 
+4.43,7.49 7.51,2.18 10.58,7.5 "/>
+  </a>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+    </svg>
+
+  <a href = "#">Все предметы</a>
+  <a href = "#">Контакты</a>
+  <a href = "#">Отзывы</a>
+</nav>
+
+<hr class="hr1">
+
+</body>
+
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<!-- ОСНОВНАЯ ПАНЕЛЬ -->
+
+
+
+
+
+<body>
+
+<h1 class="O_nac">Немного о нас:</h1>
+
+</body>
+
+
+<body>
+
+
+
+</body>
+
+</html>
+<!-------------------------------------------------------- САЙТ ------------------------------------------------------>
